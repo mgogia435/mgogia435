@@ -1,0 +1,100 @@
+h2.abtheadone {
+  margin-left: -115px;
+  font-family: Permanent Marker;
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 0px;
+  color: #fff;
+}
+
+h2.abtheadtwo {
+  font-family: Permanent Marker;
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 0px;
+  color: #fff;
+}
+
+// Hide tabbable panes to start, show them when `.active`
+.tab-content .tab-pane {
+  display: none;
+}
+
+.tab-content .active {
+  display: block;
+}
+
+.fade.in {
+  opacity: 1;
+}
+
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity .15s linear;
+  -o-transition: opacity .15s linear;
+  transition: opacity .15s linear;
+}
+
+.people ul.nav-pills li {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+}
+
+.people ul.nav-pills li a {
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  text-decoration: none;
+  color: #000;
+  background: #07e6a5 !important;
+}
+
+.people ul.nav-pills li.active a {
+  color: #000;
+  background: #07e6a5 !important;
+}
+
+h2.nameHead .play {
+  font-size: 1.6rem;
+  display: block;
+  color: #fff;
+}
+
+h2.nameHead span.name {
+  display: block;
+  color: #07e6a5;
+  font-size: 3em;
+}
+
+p.nameContent {
+  font-size: 1.6em;
+  text-align: justify;
+  color: #fff;
+  padding: 20px 0px;
+}
+
+.people .nameSocial ul {
+  padding: 0px;
+}
+
+.people .nameSocial ul li {
+  list-style-type: none;
+  font-size: 1.6em;
+  display: inline-block;
+  padding: 0px 20px 0px 0px;
+}
+
+.people .nameSocial ul li a {
+  color: #07e6a5;
+  text-decoration: none;
+}
+
+.people {
+  padding: 100px 0px;
+}
