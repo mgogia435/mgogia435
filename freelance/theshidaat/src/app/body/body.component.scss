@@ -1,8 +1,44 @@
 .body {
   min-height: 150px;
-  background-color: #000;
+  background-color: #191919;
+  padding: 16em 0;
 }
 
-#services {
-  display: none;
+.homeHead {
+  font-family: "Permanent Marker";
+  color: #fff;
+  font-size: 9em;
+  text-align: center;
+}
+
+h3.sub-head {
+  font-size: 4em;
+  color: #fff;
+  font-family: "Montserrat",Arial,sans-serif
+}
+
+.homeNo {
+  font-size: 6em;
+  color: #fff;
+  line-height: 1em;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 500;
+}
+
+.sect::after {
+  content: " ";
+  height: 5px;
+  width: 90%;
+  background: #fff;
+  color: #fff;
+  position: absolute;
+  margin-top: 15px;
+}
+
+.height {
+  height: 100px;
+}
+
+div#home {
+  background-image: url(../../assets/images/hero_home_bend.jpg);
 }

@@ -35,27 +35,35 @@ h2.abtheadtwo {
   transition: opacity .15s linear;
 }
 
-.people ul.nav-pills li {
+.team ul.nav-pills li {
   display: block;
   width: 100%;
   text-align: center;
   font-size: 1.6em;
+  margin: 0px;
 }
 
-.people ul.nav-pills li a {
+.team ul.nav-pills li a {
   text-decoration: none;
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
+  border-radius: 0px;
+  border-bottom: 2px solid #fff;
 }
 
-.nav>li>a:focus, .nav>li>a:hover {
+.team ul.nav-pills li a.first {
+  border-top: 2px solid #fff;
+}
+
+.team ul.nav li a:focus, .team ul.nav li a:hover {
   text-decoration: none;
   color: #000;
   background: #07e6a5 !important;
+  border-radius: 0px;
 }
 
-.people ul.nav-pills li.active a {
+.team ul.nav-pills li.active a {
   color: #000;
   background: #07e6a5 !important;
 }
@@ -79,22 +87,38 @@ p.nameContent {
   padding: 20px 0px;
 }
 
-.people .nameSocial ul {
+.team .nameSocial ul {
   padding: 0px;
 }
 
-.people .nameSocial ul li {
+.team .nameSocial ul li {
   list-style-type: none;
   font-size: 1.6em;
   display: inline-block;
   padding: 0px 20px 0px 0px;
 }
 
-.people .nameSocial ul li a {
+.team .nameSocial ul li a {
   color: #07e6a5;
   text-decoration: none;
 }
 
-.people {
+.team {
   padding: 100px 0px;
+}
+
+h2.historyHead {
+  text-align: center;
+  font-size: 4em;
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+h4.historySubHead {
+  font-size: 1.8em;
+  text-align: center;
+  color: #bababa;
+  font-family: "Montserrat";
+  padding-top: 15px;
 }

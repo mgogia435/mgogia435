@@ -26,7 +26,7 @@ import { ServicesComponent } from './body/services/services.component';
     GalleryComponent,
     ContactComponent,
     EventsComponent,
-    ServicesComponent
+    ServicesComponent,
   ],
   imports: [
     BrowserModule,

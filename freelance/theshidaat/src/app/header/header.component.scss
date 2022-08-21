@@ -1,7 +1,9 @@
 header#mainhead {
   color: #fff;
-  background: #000;
+  background: #191919;
   z-index: 1;
+  -webkit-box-shadow: 0 0 10px 0 rgb(0 0 0 / 50%);
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 50%);
 }
 
 header#mainhead div#logo a {
