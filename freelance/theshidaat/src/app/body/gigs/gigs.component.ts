@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./gigs.component.scss']
 })
 export class GigsComponent implements OnInit {
-
+  fullyear: number = new Date().getFullYear();
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }

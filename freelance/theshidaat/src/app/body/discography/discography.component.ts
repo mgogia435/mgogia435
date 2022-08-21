@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-discography',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./discography.component.scss']
 })
 export class DiscographyComponent implements OnInit {
-
+  @Input() fullyears: number = 0;
   constructor() { }
 
   ngOnInit(): void {

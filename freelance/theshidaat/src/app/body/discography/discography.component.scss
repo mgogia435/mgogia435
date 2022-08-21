@@ -1,0 +1,45 @@
+.discographyHead {
+  color: #fff;
+  font-size: 3.5em;
+  padding-top: 1em;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+.discographySubHead {
+  color: #fff;
+  font-size: 1.8em;
+  font-family: "Montserrat";
+}
+
+audio {
+  border-radius: 0px !important;
+  background: #f1f3f4;
+  height: 35px;
+}
+
+.audio ol li {
+  font-size: 15px;
+  color: #000;
+  font-weight: 700;
+  padding: 0px 10px;
+  border-bottom: 2px solid #0bb987;
+}
+
+/* .audio ol li.last {
+  border-bottom: 0px !important;
+} */
+
+.audio ol li span {
+  padding-right: 15px;
+  vertical-align: 50%;
+}
+
+.audio ol {
+  width: 35%;
+  display: inline-block;
+  background: #f1f3f4;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}

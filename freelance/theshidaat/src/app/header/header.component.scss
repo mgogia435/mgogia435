@@ -1,7 +1,7 @@
 header#mainhead {
   color: #fff;
   background: #191919;
-  z-index: 1;
+  z-index: 9;
   -webkit-box-shadow: 0 0 10px 0 rgb(0 0 0 / 50%);
   box-shadow: 0 0 10px 0 rgb(0 0 0 / 50%);
 }
@@ -85,4 +85,8 @@ header.headerfixed ul.menu li a {
 
 header.headerfixed .socialicons {
   line-height: 45px !important;
+}
+
+.mobile {
+  display: none;
 }
