@@ -1,0 +1,67 @@
+h2.contactHead {
+  font-family: 'Permanent Marker';
+  font-size: 8em;
+  text-align: center;
+  color: #fff;
+}
+
+.contactSubHead {
+  text-align: center;
+  color: #fff;
+  font-size: 3em;
+  opacity: .7;
+  font-family: 'Montserrat';
+}
+
+h3.title {
+  color: #07e6a5;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-family: 'Montserrat';
+}
+
+.locate {
+  padding: 30px 0px;
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+}
+
+.address {
+  font-size: 1.4em;
+    color: #fff;
+    padding: 10px 0px 0px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+}
+
+.address a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+.locate.a1:before {
+  content: "\f5a0";
+  color: #07e6a5;
+  font-size: 40px;
+  position: absolute;
+}
+
+.locate.a2:before {
+  content: "\f095";
+  color: #07e6a5;
+  font-size: 40px;
+  position: absolute;
+}
+
+.locate.a3:before {
+  content: "\f0e0";
+  color: #07e6a5;
+  font-size: 40px;
+  position: absolute;
+}
+
+.locates {
+  padding-left: 60px;
+  position: relative;
+}

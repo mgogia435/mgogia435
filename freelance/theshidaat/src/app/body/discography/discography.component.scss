@@ -16,6 +16,7 @@ audio {
   border-radius: 0px !important;
   background: #f1f3f4;
   height: 35px;
+  width: 75%;
 }
 
 .audio ol li {
@@ -26,20 +27,56 @@ audio {
   border-bottom: 2px solid #0bb987;
 }
 
-/* .audio ol li.last {
-  border-bottom: 0px !important;
-} */
-
 .audio ol li span {
   padding-right: 15px;
   vertical-align: 50%;
+  width: 25%;
+  display: inline-block;
 }
 
 .audio ol {
-  width: 35%;
+  width: 100%;
   display: inline-block;
   background: #f1f3f4;
   list-style-type: none;
   padding: 0px;
   margin: 0px;
+}
+
+.audio {
+  margin-top: 40px;
+  background: #fff;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+}
+
+.subHeaddisc {
+  color: #0bb987;
+  font-size: 1.8em;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+h2.headdisc {
+  color: #fff;
+  font-size: 4em;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+.contentdisc {
+  color: #fff;
+  opacity: .7;
+  font-size: 1.8em;
+}
+
+.initialDisc {
+  padding: 83px 43px;
+}
+
+.videosection {
+  padding-top: 70px;
 }
