@@ -65,3 +65,41 @@ h3.title {
   padding-left: 60px;
   position: relative;
 }
+
+
+.input input {
+  line-height: 16px;
+  height: 50px;
+  background-color: #BCBCBC !important;
+  border-radius: 0% !important;
+  color: #000 !important;
+  width: 100%;
+  font-size: 16px;
+  border: 0px;
+}
+
+.input textarea {
+  line-height: 16px;
+  height: 230px;
+  background-color: #BCBCBC;
+  border-radius: 0% !important;
+  width: 100%;
+  font-size: 16px;
+  border: 0px;
+}
+
+.labels label {
+  display: block;
+  font-size: 15px;
+}
+
+.labels {
+  color: white;
+  font-size: 0.8em !important;
+  line-height: 3em;
+  padding: 15px 0px 0px;
+}
+
+div.contacts .container {
+  padding: 40px 0px 0px;
+}
