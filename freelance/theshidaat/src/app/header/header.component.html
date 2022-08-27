@@ -26,24 +26,27 @@
               <!-- Menu Section -->
               <nav id="menusection">
                 <ul id="menu-primary-menu" class="menu">
-                  <li id="" class="active">
+                  <li *ngFor="let menu of menus" id="{{menu.id}}" (click)="selectedMenu($event)" [ngClass]="(menu.href == targetHash) ? 'active' : '' ">
+                    <a href="#{{menu.href}}">{{menu.name}}</a>
+                  </li>
+                  <!-- <li id="first" class="active">
                     <a href="#home">Home</a>
                   </li>
-                  <li id="" class="">
+                  <li id="second" class="">
                     <a href="#about">About us</a>
                   </li>
-                  <li id="" class="">
+                  <li id="third" class="">
                     <a href="#services">Services</a>
                   </li>
-                  <li id="" class="">
-                    <a href="#discography ">Discography </a>
+                  <li id="fourth" class="">
+                    <a href="#discography ">Discography</a>
                   </li>
-                  <li id="" class="">
+                  <li id="fifth" class="">
                     <a href="#events">Events</a>
                   </li>
-                  <li id="" class="">
+                  <li id="sixth" class="">
                     <a href="#contact">Contact</a>
-                  </li>
+                  </li> -->
                 </ul>
               </nav>
               <!-- Menu Section -->

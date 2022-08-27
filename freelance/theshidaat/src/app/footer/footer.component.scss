@@ -1,10 +1,11 @@
 .mainfoot {
-  background: #191919;
+  background: linear-gradient(180deg, rgba(15,15,15,1) 0%, rgba(7,7,7,1) 50%, rgba(0,0,0,1) 100%);
   color: #fff;
   font-size: .9em;
   padding: 4em 0px 2em;
   text-align: center;
   font-family: "Montserrat",Arial,sans-serif;
+  border-top: 2px solid #07e6a5;
 }
 
 .mainfoot h3 {
@@ -55,4 +56,8 @@ div#footermenu ul li a {
   color: #797979;
   text-decoration: none;
   font-size: 1.3em;
+}
+
+.socialicons a:hover {
+  color: #07e6a5 !important;
 }
