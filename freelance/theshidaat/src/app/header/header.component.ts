@@ -9,6 +9,8 @@ export class HeaderComponent implements OnInit {
   headerFixed: string = '';
   menus: any[] = [];
   targetHash: string = 'home';
+  barClass: string = 'fa-bars';
+  menuActive: string = 'hide';
 
   constructor() { }
 
@@ -38,21 +40,22 @@ export class HeaderComponent implements OnInit {
     //console.log("document.documentElement.scrollTop " + document.documentElement.scrollTop);
     if(document.documentElement.scrollTop >= 230) this.headerFixed = 'headerfixed';
     else this.headerFixed = '';
-    console.log(event);
     const viewHeight = window.innerHeight;
     for (var menu of this.menus) {
       const element = document.getElementById(menu['href']);
       if (element != null) {
         const rect = element.getBoundingClientRect();
-        console.log(rect.top);
-        console.log(viewHeight);
-        console.log(rect.top < viewHeight / 2 ? 1 : 0);
         if (rect.top >= 0 && rect.top < viewHeight / 2) {
           this.targetHash = menu['href'];
           console.log(this.targetHash);
         }
       } else {}
     }
+  }
+
+  toggleBars(classed: any) {
+    this.barClass = (classed == 'fa-bars') ? 'fa-bars-staggered' : 'fa-bars';
+    this.menuActive = (classed == 'fa-bars') ? 'show' : 'hide';
   }
 
 }
