@@ -1,9 +1,4 @@
-.serviceHead {
-  font-family: 'Permanent Marker';
-  text-align: center;
-  font-size: 8em;
-  color: #fff;
-}
+
 
 .serviceSection {
   padding: 45px 0px 0px;
@@ -16,17 +11,77 @@
   color: #07e6a5;
 }
 
-h3.contentTitle {
-  font-size: 1.8em;
-  font-family: "Montserrat",Arial,sans-serif;
-  font-weight: 500;
-}
 
-.contentBody {
-  font-size: 1.6em;
-  width: 60%;
-  margin: 0px auto;
-}
 .height {
   height: 50px;
+}
+
+@media only screen and (max-width:767px) {
+  .laptop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  h3.contentTitle {
+    font-size: 1.7em;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 700;
+    color: #07e6a5;
+  }
+  .contentBody {
+    font-size: 1.6em;
+    width: 100%;
+    margin: 0px auto;
+  }
+  .serviceHead {
+    font-family: "Permanent Marker";
+    text-align: center;
+    font-size: 6em;
+    color: #fff;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width:991px) {
+  .mobile {
+    display: none;
+  }
+  h3.contentTitle {
+    font-size: 1.8em;
+    font-family: "Montserrat",Arial,sans-serif;
+    font-weight: 500;
+  }
+
+  .contentBody {
+    font-size: 1.6em;
+    width: 100%;
+    margin: 0px auto;
+  }
+  .serviceHead {
+    font-family: 'Permanent Marker';
+    text-align: center;
+    font-size: 8em;
+    color: #fff;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .mobile {
+    display: none;
+  }
+  h3.contentTitle {
+    font-size: 1.8em;
+    font-family: "Montserrat",Arial,sans-serif;
+    font-weight: 500;
+  }
+
+  .contentBody {
+    font-size: 1.6em;
+    width: 60%;
+    margin: 0px auto;
+  }
+  .serviceHead {
+    font-family: 'Permanent Marker';
+    text-align: center;
+    font-size: 8em;
+    color: #fff;
+  }
 }

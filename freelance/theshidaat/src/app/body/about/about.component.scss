@@ -1,20 +1,3 @@
-h2.abtheadone {
-  margin-left: -115px;
-  font-family: Permanent Marker;
-  text-align: center;
-  font-size: 80px;
-  margin-bottom: 0px;
-  color: #fff;
-}
-
-h2.abtheadtwo {
-  font-family: Permanent Marker;
-  text-align: center;
-  font-size: 80px;
-  margin-bottom: 0px;
-  color: #fff;
-}
-
 // Hide tabbable panes to start, show them when `.active`
 .tab-content .tab-pane {
   display: none;
@@ -103,10 +86,6 @@ p.nameContent {
   text-decoration: none;
 }
 
-.team {
-  padding: 100px 0px;
-}
-
 h2.historyHead {
   text-align: center;
   font-size: 4em;
@@ -127,30 +106,6 @@ h4.historySubHead {
 .historyContent.right {
   text-align: right;
   border-right: 2px solid #07e6a5;
-}
-
-.historyContent {
-  padding: 4em 2em;
-  width: 50%;
-  display: inline-block;
-}
-
-h3.historydate {
-  color: #07e6a5;
-}
-
-h2.year {
-  font-size: 2.5em;
-  font-weight: 600;
-  border: 2px solid #07e6a5;
-  border-radius: 50%;
-  margin: auto;
-  display: block;
-  line-height: 3.8em;
-  width: 4em;
-  height: 4em;
-  padding: 0px 21px;
-  color: #fff;
 }
 
 .right h3.historydate::after {
@@ -181,30 +136,269 @@ h2.year {
   top: 0.5em;
 }
 
-.supercontent {
-  width: 65%;
-  font-size: 1.7em;
-  color: #fff;
-  display: inline-block;
-}
 
-h2.supertitle {
-  width: 75%;
-  font-size: 4em;
-  color: #07e6a5;
-  display: inline-block;
-}
 
-.historyContent.last::after {
-  font-family: FontAwesome;
-  content: "\f111";
-  margin-right: -4px;
-  color: #07e6a5;
-  display: block;
-  line-height: 0;
-  position: relative;
-  text-align: right;
-  right: -1.45em;
-  top: 2em;
-  font-size: 19px;
+@media only screen and (max-width:767px) {
+  .laptop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  h2.nameHead .play {
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  h2.nameHead {
+    display: inline-block;
+    width: 52%;
+    vertical-align: middle;
+    text-align: center;
+  }
+  img.nameImg {
+    width: 45%;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  h2.nameHead span.name {
+    font-size: 2em;
+    text-transform: uppercase;
+  }
+  p.nameContent {
+    padding: 20px !important;
+  }
+  .team .nameSocial ul li {
+    font-size: 1.4em;
+    padding: 7px 14px;
+    background: #07e6a5;
+    margin-left: 8px;
+  }
+  .team .nameSocial ul li a {
+    color: #181818;
+    text-decoration: none;
+    font-weight: 900;
+  }
+  h2.abtheadone {
+    margin-left: 0px;
+    font-family: Permanent Marker;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 0px;
+    color: #fff;
+  }
+  h2.abtheadtwo {
+    font-family: Permanent Marker;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 0px;
+    color: #fff;
+  }
+  .team {
+    padding: 50px 0px;
+  }
+  .historyContent {
+    padding: 4em 2em;
+    width: 100%;
+    display: block;
+  }
+
+  h3.historydate {
+    color: #07e6a5;
+    font-size: 2em;
+  }
+
+  h2.year {
+    font-size: 2.5em;
+    font-weight: 800;
+    margin: 0px;
+    line-height: 3em;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    background: #07e6a5;
+  }
+  .supercontent {
+    width: 100%;
+    font-size: 1.7em;
+    color: #fff;
+    display: block;
+    text-align: justify;
+  }
+
+  h2.supertitle {
+    width: 100%;
+    font-size: 3em;
+    color: #07e6a5;
+    display: block;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width:991px) {
+  .laptop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  h2.nameHead .play {
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  h2.nameHead {
+    display: inline-block;
+    width: 52%;
+    vertical-align: middle;
+    text-align: center;
+  }
+  img.nameImg {
+    width: 45%;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  h2.nameHead span.name {
+    font-size: 2em;
+    text-transform: uppercase;
+  }
+  p.nameContent {
+    padding: 20px !important;
+  }
+  .team .nameSocial ul li {
+    font-size: 1.4em;
+    padding: 7px 14px;
+    background: #07e6a5;
+    margin-left: 8px;
+  }
+  .team .nameSocial ul li a {
+    color: #181818;
+    text-decoration: none;
+    font-weight: 900;
+  }
+  h2.abtheadone {
+    margin-left: 0px;
+    font-family: Permanent Marker;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 0px;
+    color: #fff;
+  }
+  h2.abtheadtwo {
+    font-family: Permanent Marker;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 0px;
+    color: #fff;
+  }
+  .team {
+    padding: 50px 0px;
+  }
+  .historyContent {
+    padding: 4em 2em;
+    width: 100%;
+    display: block;
+  }
+
+  h3.historydate {
+    color: #07e6a5;
+    font-size: 2em;
+  }
+
+  h2.year {
+    font-size: 2.5em;
+    font-weight: 800;
+    margin: 0px;
+    line-height: 3em;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    background: #07e6a5;
+  }
+  .supercontent {
+    width: 100%;
+    font-size: 1.7em;
+    color: #fff;
+    display: block;
+    text-align: justify;
+  }
+
+  h2.supertitle {
+    width: 100%;
+    font-size: 3em;
+    color: #07e6a5;
+    display: block;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .mobile {
+    display: none;
+  }
+  h2.abtheadone {
+    margin-left: -115px;
+    font-family: Permanent Marker;
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 0px;
+    color: #fff;
+  }
+
+  h2.abtheadtwo {
+    font-family: Permanent Marker;
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 0px;
+    color: #fff;
+  }
+  .team {
+    padding: 100px 0px;
+  }
+
+  .historyContent {
+    padding: 4em 2em;
+    width: 50%;
+    display: inline-block;
+  }
+
+  h3.historydate {
+    color: #07e6a5;
+  }
+
+  h2.year {
+    font-size: 2.5em;
+    font-weight: 600;
+    border: 2px solid #07e6a5;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    line-height: 3.8em;
+    width: 4em;
+    height: 4em;
+    padding: 0px 21px;
+    color: #fff;
+  }
+  .supercontent {
+    width: 65%;
+    font-size: 1.7em;
+    color: #fff;
+    display: inline-block;
+  }
+
+  h2.supertitle {
+    width: 75%;
+    font-size: 4em;
+    color: #07e6a5;
+    display: inline-block;
+  }
+
+  .historyContent.last::after {
+    font-family: FontAwesome;
+    content: "\f111";
+    margin-right: -4px;
+    color: #07e6a5;
+    display: block;
+    line-height: 0;
+    position: relative;
+    text-align: right;
+    right: -1.45em;
+    top: 2em;
+    font-size: 19px;
+  }
+
 }

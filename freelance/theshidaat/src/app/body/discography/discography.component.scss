@@ -24,7 +24,7 @@ audio {
   color: #000;
   font-weight: 700;
   padding: 0px 10px;
-  border-bottom: 2px solid #0bb987;
+  border-bottom: 2px solid #07e6a5;
 }
 
 .audio ol li span {
@@ -54,29 +54,11 @@ video {
   border-radius: 5px;
 }
 
-.subHeaddisc {
-  color: #0bb987;
-  font-size: 1.8em;
-  font-family: "Montserrat";
-  font-weight: 500;
-}
 
-h2.headdisc {
-  color: #fff;
-  font-size: 4em;
-  font-family: "Montserrat";
-  font-weight: 600;
-}
 
-.contentdisc {
-  color: #fff;
-  opacity: .7;
-  font-size: 1.8em;
-}
 
-.initialDisc {
-  padding: 65px 43px;
-}
+
+
 
 .videosection {
   padding-top: 70px;
@@ -164,4 +146,196 @@ button.close {
 
 .playicon:hover {
   background: rgb(7 230 165 / 50%);
+}
+
+@media only screen and (max-width:767px) {
+  .contentdisc {
+    color: #000;
+    opacity: 0.7;
+    font-size: 1.8em;
+  }
+  h2.headdisc {
+    color: #000;
+    font-size: 4em;
+    font-family: "Montserrat";
+    font-weight: 600;
+  }
+  .subHeaddisc {
+    color: #000;
+    font-size: 1.8em;
+    font-family: "Montserrat";
+    font-weight: 500;
+  }
+  .initialDisc {
+    padding: 65px 43px;
+    background: #0bb987;
+    text-align: center;
+  }
+  .playicon {
+    display: inline-block;
+    width: 97%;
+    height: 93%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 9;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .videosection img {
+    padding: 10px;
+  }
+  .modal .modal-dialog {
+    -webkit-transform: translate(0,0) !important;
+    -ms-transform: translate(0,0) !important;
+    -o-transform: translate(0,0) !important;
+    transform: translate(0,0) !important;
+    height: 100%;
+    max-width: 100% !important;
+  }
+  .audio ol li span {
+    padding-right: 0px;
+    vertical-align: 50%;
+    width: 30%;
+    display: inline-block;
+  }
+
+  audio {
+    border-radius: 0px !important;
+    background: #f1f3f4;
+    height: 35px;
+    width: 70%;
+  }
+
+  .discographySubHead, h2.discographyHead {
+    text-align: center;
+    background: #07e6a5;
+    padding: 8px 0px;
+    margin: 0px;
+    color: #000;
+  }
+  .discograph {
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width:991px) {
+  .contentdisc {
+    color: #000;
+    opacity: 0.7;
+    font-size: 1.8em;
+  }
+  h2.headdisc {
+    color: #000;
+    font-size: 4em;
+    font-family: "Montserrat";
+    font-weight: 600;
+  }
+  .subHeaddisc {
+    color: #000;
+    font-size: 1.8em;
+    font-family: "Montserrat";
+    font-weight: 500;
+  }
+  .initialDisc {
+    padding: 65px 43px;
+    background: #0bb987;
+    text-align: center;
+  }
+  .playicon {
+    display: inline-block;
+    width: 97%;
+    height: 93%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 9;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .videosection img {
+    padding: 10px;
+  }
+  .modal .modal-dialog {
+    -webkit-transform: translate(0,0) !important;
+    -ms-transform: translate(0,0) !important;
+    -o-transform: translate(0,0) !important;
+    transform: translate(0,0) !important;
+    height: 100%;
+    max-width: 100% !important;
+  }
+  .audio ol li span {
+    padding-right: 0px;
+    vertical-align: 50%;
+    width: 30%;
+    display: inline-block;
+  }
+
+  audio {
+    border-radius: 0px !important;
+    background: #f1f3f4;
+    height: 35px;
+    width: 70%;
+  }
+
+  .discographySubHead, h2.discographyHead {
+    text-align: center;
+    background: #07e6a5;
+    padding: 8px 0px;
+    margin: 0px;
+    color: #000;
+  }
+  .discograph {
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .subHeaddisc {
+    color: #07e6a5;
+    font-size: 1.8em;
+    font-family: "Montserrat";
+    font-weight: 500;
+  }
+
+  h2.headdisc {
+    color: #fff;
+    font-size: 4em;
+    font-family: "Montserrat";
+    font-weight: 600;
+  }
+  .initialDisc {
+    padding: 65px 43px;
+  }
+  .contentdisc {
+    color: #fff;
+    opacity: .7;
+    font-size: 1.8em;
+  }
+  .playicon {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 9;
+    cursor: pointer;
+  }
+  .modal .modal-dialog {
+    -webkit-transform: translate(0,0) !important;
+    -ms-transform: translate(0,0) !important;
+    -o-transform: translate(0,0) !important;
+    transform: translate(0,0) !important;
+    height: 100%;
+    max-width: 50% !important;
+  }
+  audio {
+    border-radius: 0px !important;
+    background: #f1f3f4;
+    height: 35px;
+    width: 75%;
+  }
+
+  .audio ol li span {
+    padding-right: 15px;
+    vertical-align: 50%;
+    width: 25%;
+    display: inline-block;
+  }
 }

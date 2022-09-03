@@ -1,9 +1,3 @@
-h2.contactHead {
-  font-family: 'Permanent Marker';
-  font-size: 8em;
-  text-align: center;
-  color: #fff;
-}
 
 .contactSubHead {
   text-align: center;
@@ -26,13 +20,7 @@ h3.title {
   font-weight: 900;
 }
 
-.address {
-  font-size: 1.4em;
-    color: #fff;
-    padding: 10px 0px 0px;
-    font-weight: 500;
-    font-family: 'Montserrat';
-}
+
 
 .address a {
   color: #fff;
@@ -114,4 +102,67 @@ input#submits {
   background: #07e6a5;
   padding: 5px 0px;
   font-family: "Montserrat";
+}
+
+@media only screen and (max-width:767px) {
+  h2.contactHead {
+    font-family: 'Permanent Marker';
+    font-size: 6em;
+    text-align: center;
+    color: #fff;
+  }
+  .address br {
+    display: none;
+  }
+  .address {
+    font-size: 1.8em;
+    color: #fff;
+    padding: 10px 0px 0px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+  }
+  .contactSubHead {
+    text-align: center;
+    color: #fff;
+    font-size: 2.5em;
+    opacity: 0.7;
+    font-family: "Montserrat";
+  }
+}
+@media only screen and (min-width: 768px) and (max-width:991px) {
+  h2.contactHead {
+    font-family: 'Permanent Marker';
+    font-size: 6em;
+    text-align: center;
+    color: #fff;
+  }
+  .address {
+    font-size: 1.4em;
+    color: #fff;
+    padding: 10px 0px 0px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+  }
+  .contactSubHead {
+    text-align: center;
+    color: #fff;
+    font-size: 2.5em;
+    opacity: 0.7;
+    font-family: "Montserrat";
+  }
+}
+@media only screen and (min-width: 992px) {
+  h2.contactHead {
+    font-family: 'Permanent Marker';
+    font-size: 8em;
+    text-align: center;
+    color: #fff;
+  }
+  .address {
+    font-size: 1.4em;
+    color: #fff;
+    padding: 10px 0px 0px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+  }
 }

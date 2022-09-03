@@ -92,6 +92,13 @@ header#mainhead {
   header.headerfixed .socialicons {
     line-height: 45px !important;
   }
+  div#logo img.logo {
+    width: 90%;
+    padding: 5px;
+  }
+  /* img.logo2 {
+    width: 75%;
+  } */
 }
 
 @media only screen and (max-width:767px) {
@@ -108,75 +115,183 @@ header#mainhead {
     display: block;
   }
 
-.socialicons {
-  display: inline-block;
-  width: 30px;
-  text-align: center;
+  .socialicons {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+  }
+
+  .socialicons a {
+    font-size: 18px;
+    color: #07e6a5;
+    text-decoration: none;
+    line-height: 51px;
+  }
+
+  .bars i {
+    font-size: 21px;
+    line-height: 51px;
+  }
+
+  .bars {
+    text-align: center;
+  }
+
+  nav#menusection {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    min-width: 160px;
+    padding: 5px 10px;
+    margin: 0px;
+    font-size: 14px;
+    text-align: center;
+    list-style: none;
+    background-color: #000;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  nav#menusection ul.menu {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+  }
+
+  nav#menusection ul.menu li {
+    display: block;
+  }
+
+  nav#menusection ul.menu li a {
+    color: #fff;
+    text-decoration: none;
+    height: 100%;
+    line-height: 60px;
+    font-size: 18px;
+    font-family: "Montserrat",Arial,sans-serif;
+    display: block;
+    position: relative;
+  }
+
+  nav#menusection ul.menu li.active a:after {
+    background-color: #07e6a5;
+    content: ' ';
+    display: block;
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    height: 4px;
+  }
+  header.headerfixed {
+    position: fixed;
+    width: 100%;
+  }
+  div#logo {
+    height: 43px;
+    margin-top: 4px;
+  }
 }
 
-.socialicons a {
-  font-size: 18px;
-  color: #0ae4a6;
-  text-decoration: none;
-  line-height: 61px;
-}
+@media only screen and (min-width:768px) and (max-width:991px) {
+  .mobile {
+    display: block !important;
+  }
 
-.bars i {
-  font-size: 21px;
-  line-height: 59px;
-}
+  .laptop {
+    display: none;
+  }
 
-nav#menusection {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1000;
-  min-width: 160px;
-  padding: 5px 10px;
-  margin: 0px;
-  font-size: 14px;
-  text-align: center;
-  list-style: none;
-  background-color: #000;
-  width: 100%;
-  text-transform: uppercase;
-  font-weight: 700;
-}
+  div#logo, div#logo a, div#logo img {
+    width: 90%;
+    display: block;
+    height: 100%;
+    margin: 0px auto;
+  }
 
-nav#menusection ul.menu {
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
-  height: 100%;
-}
+  .socialicons {
+    display: inline-block;
+    width: 45px;
+    text-align: center;
+  }
 
-nav#menusection ul.menu li {
-  display: block;
-}
+  .socialicons a {
+    font-size: 18px;
+    color: #07e6a5;
+    text-decoration: none;
+    line-height: 51px;
+  }
 
-nav#menusection ul.menu li a {
-  color: #fff;
-  text-decoration: none;
-  height: 100%;
-  line-height: 80px;
-  font-size: 18px;
-  font-family: "Montserrat",Arial,sans-serif;
-  display: block;
-  position: relative;
-}
+  .bars i {
+    font-size: 21px;
+    line-height: 51px;
+  }
 
-nav#menusection ul.menu li.active a:after {
-  background-color: #07e6a5;
-  content: ' ';
-  display: block;
-  position: absolute;
-  z-index: 5;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  pointer-events: none;
-  height: 4px;
-}
+  .bars {
+    text-align: center;
+  }
 
+  nav#menusection {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    min-width: 160px;
+    padding: 5px 10px;
+    margin: 0px;
+    font-size: 14px;
+    text-align: center;
+    list-style: none;
+    background-color: #000;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
 
+  nav#menusection ul.menu {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+  }
+
+  nav#menusection ul.menu li {
+    display: block;
+  }
+
+  nav#menusection ul.menu li a {
+    color: #fff;
+    text-decoration: none;
+    height: 100%;
+    line-height: 60px;
+    font-size: 18px;
+    font-family: "Montserrat",Arial,sans-serif;
+    display: block;
+    position: relative;
+  }
+
+  nav#menusection ul.menu li.active a:after {
+    background-color: #07e6a5;
+    content: ' ';
+    display: block;
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    height: 4px;
+  }
+  header.headerfixed {
+    position: fixed;
+    width: 100%;
+  }
+  div#logo {
+    margin-top: 4px;
+  }
 }

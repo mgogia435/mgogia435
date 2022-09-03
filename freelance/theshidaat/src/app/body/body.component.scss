@@ -1,51 +1,141 @@
-.body {
-  background-color: #191919;
-  padding: 12em 0;
-}
 
 div#contact .body {
   background: linear-gradient(180deg, rgba(25,25,25,1) 0%, rgba(20,20,20,1) 50%, rgba(15,15,15,1) 100%);
 }
 
-#home {
-  padding: 16em 0 !important;
-}
-
-.homeHead {
-  font-family: "Permanent Marker";
-  color: #fff;
-  font-size: 9em;
-  text-align: center;
-}
-
-h3.sub-head {
-  font-size: 4em;
-  color: #fff;
-  font-family: "Montserrat",Arial,sans-serif
-}
-
-.homeNo {
-  font-size: 6em;
-  color: #fff;
-  line-height: 1em;
-  font-family: "Montserrat", Arial, sans-serif;
-  font-weight: 500;
-}
-
-.sect::after {
-  content: " ";
-  height: 5px;
-  width: 90%;
-  background: #fff;
-  color: #fff;
-  position: absolute;
-  margin-top: 15px;
-}
-
-.height {
-  height: 100px;
-}
-
 div#home {
   background-image: url(../../assets/images/hero_home_bend.jpg);
+}
+
+@media only screen and (max-width:767px) {
+  #home {
+    padding: 5em 1em !important
+  }
+  .homeHead {
+    font-family: "Permanent Marker";
+    color: #fff;
+    font-size: 5em;
+    text-align: center;
+  }
+  .height {
+    height: 40px;
+  }
+  .sect {
+    min-height: 120px;
+  }
+  h3.sub-head {
+    font-size: 3em;
+    color: #fff;
+    font-family: "Montserrat", Arial, sans-serif;
+  }
+  .homeNo {
+    font-size: 5em;
+    color: #fff;
+    line-height: 1em;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 500;
+  }
+  .sect::after {
+    content: " ";
+    height: 5px;
+    width: 90%;
+    background: #fff;
+    color: #fff;
+    position: absolute;
+    margin-top: 10px;
+  }
+  .body {
+    background-color: #191919;
+    padding: 5em 1em;
+  }
+  div#discography .body {
+    padding: 5em 0;
+  }
+}
+@media only screen and (min-width:768px) and (max-width: 991px) {
+  #home {
+    padding: 5em 1em !important
+  }
+  .homeHead {
+    font-family: "Permanent Marker";
+    color: #fff;
+    font-size: 5em;
+    text-align: center;
+  }
+  .height {
+    height: 40px;
+  }
+  .sect {
+    min-height: 120px;
+  }
+  h3.sub-head {
+    font-size: 3em;
+    color: #fff;
+    font-family: "Montserrat", Arial, sans-serif;
+  }
+  .homeNo {
+    font-size: 5em;
+    color: #fff;
+    line-height: 1em;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 500;
+  }
+  .sect::after {
+    content: " ";
+    height: 5px;
+    width: 90%;
+    background: #fff;
+    color: #fff;
+    position: absolute;
+    margin-top: 10px;
+  }
+  .body {
+    background-color: #191919;
+    padding: 5em 1em;
+  }
+  div#discography .body {
+    padding: 5em 0;
+  }
+}
+@media only screen and (min-width: 992px) {
+  #home {
+    padding: 16em 0 !important;
+  }
+  .homeHead {
+    font-family: "Permanent Marker";
+    color: #fff;
+    font-size: 9em;
+    text-align: center;
+  }
+
+  .height {
+    height: 100px;
+  }
+  h3.sub-head {
+    font-size: 4em;
+    color: #fff;
+    font-family: "Montserrat",Arial,sans-serif
+  }
+
+  .homeNo {
+    font-size: 6em;
+    color: #fff;
+    line-height: 1em;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 500;
+  }
+
+  .sect::after {
+    content: " ";
+    height: 5px;
+    width: 90%;
+    background: #fff;
+    color: #fff;
+    position: absolute;
+    margin-top: 15px;
+  }
+  .body {
+    background-color: #191919;
+    padding: 12em 0;
+  }
 }
