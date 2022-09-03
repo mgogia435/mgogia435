@@ -4,13 +4,16 @@ div#contact .body {
 }
 
 div#home {
-  background-image: url(../../assets/images/hero_home_bend.jpg);
+  /* background-image: url(../../assets/images/hero_home_bend.jpg); */
+  padding: 0 !important;
 }
-
+div#home img {
+  width: 100%;
+}
 @media only screen and (max-width:767px) {
-  #home {
+  /* #home {
     padding: 5em 1em !important
-  }
+  } */
   .homeHead {
     font-family: "Permanent Marker";
     color: #fff;
@@ -53,9 +56,9 @@ div#home {
   }
 }
 @media only screen and (min-width:768px) and (max-width: 991px) {
-  #home {
+  /* #home {
     padding: 5em 1em !important
-  }
+  } */
   .homeHead {
     font-family: "Permanent Marker";
     color: #fff;
@@ -98,9 +101,9 @@ div#home {
   }
 }
 @media only screen and (min-width: 992px) {
-  #home {
+  /* #home {
     padding: 16em 0 !important;
-  }
+  } */
   .homeHead {
     font-family: "Permanent Marker";
     color: #fff;
