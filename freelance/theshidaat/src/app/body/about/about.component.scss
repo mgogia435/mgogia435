@@ -136,7 +136,35 @@ h4.historySubHead {
   top: 0.5em;
 }
 
+.aboutDetail {
+  margin: 0px 10px;
+}
 
+.aboutDetail img {
+  width: 100%;
+}
+
+h1.tag span.superheadline {
+  font-size: 1.8rem;
+  display: block;
+  color: #fff;
+}
+
+h1.tag .content {
+  color: #07e6a5;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.tag_text {
+  color: #fff;
+  font-size: 1.8em;
+  text-align: justify;
+}
+
+div.detailed {
+  padding: 0px 50px;
+}
 
 @media only screen and (max-width:767px) {
   .laptop {
